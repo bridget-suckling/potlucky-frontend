@@ -3,14 +3,15 @@ import peopleData from '../people.json'
 
 function Guests() {
 
-  console.log(peopleData)
-
   return (
     <div>
        <h2>Guest list</h2>
       <ul>
-        <li key="1">Bridget</li>
+        {peopleData.map(({id, name, diet}) => (
+        <li key={id}>{name}, {diet}</li>
+      ))}   
       </ul>
+      <button>Add another guest</button>
     </div>
   );
 }
