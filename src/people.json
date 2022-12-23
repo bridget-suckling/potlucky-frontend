@@ -1,57 +1,67 @@
 {"data": 
 {
-  "events": [
-    {"guests": [
-      {
+  "events": 
+  [
+    {
+      "eventId": 1,
+      "location": "Beach Road",
+      "time": "Lunch",
+      "hostId": 3,
+      "guests": [
+        {
           "id": 1,
           "name": "Alice",
           "diet": "Nut-free",
-          "dishId": 101,
-          "dishType": "Drinks",
-          "dishName": "Punch",
-          "dishDietary": null,
-          "notes": ""
-
+          "dishes": [{
+            "dishId": 101,
+            "dishType": "Drinks",
+            "dishName": "Punch",
+            "dishDietary": null,
+            "notes": ""}]
         },
         {
           "id": 2,
           "name": "Andy",
           "diet": "Vegan",
-          "dishId": 102,
-          "dishType": "Starter",
-          "dishName": "Cheese",
-          "dishDietary": null,
-          "notes": ""
+          "dishes": [{
+            "dishId": 102,
+            "dishType": "Starter",
+            "dishName": "Cheese",
+            "dishDietary": null,
+            "notes": ""}]
         },
         {
           "id": 3,
           "name": "Bas",
           "diet": "Vegetarian",
-          "dishId": 103,
-          "dishType": "Salad",
-          "dishName": "Green salad",
-          "dishDietary": null,
-          "notes": ""
+          "dishes": [{
+            "dishId": 103,
+            "dishType": "Salad",
+            "dishName": "Green salad",
+            "dishDietary": null,
+            "notes": ""}]
         },
         {
           "id": 4,
           "name": "Bridget",
           "diet": "Vegetarian",
-          "dishId": 104,
-          "dishType": "Main",
-          "dishName": "Lasagne",
-          "dishDietary": null,
-          "notes": ""
+          "dishes": [{
+            "dishId": 104,
+            "dishType": "Main",
+            "dishName": "Lasagne",
+            "dishDietary": null,
+            "notes": ""}]
         },
         {
           "id": 5,
           "name": "Pagen",
           "diet": null,
-          "dishId": 105,
-          "dishType": "Dessert",
-          "dishName": "Key lime pie",
-          "dishDietary": null,
-          "notes": ""
+          "dishes": [{
+            "dishId": 105,
+            "dishType": "Dessert",
+            "dishName": "Key lime pie",
+            "dishDietary": null,
+            "notes": ""}]
         }
 
     ]}
