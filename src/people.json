@@ -1,0 +1,30 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "diet": "nut-free"
+    },
+    {
+      "id": 2,
+      "name": "Andy",
+      "diet": "vegan"
+    },
+    {
+      "id": 3,
+      "name": "Bas",
+      "diet": "vegetarian"
+    },
+    {
+      "id": 4,
+      "name": "Bridget",
+      "diet": "vegetarian"
+    },
+    {
+      "id": 5,
+      "name": "Pagen",
+      "diet": ""
+    }
+    
+  ]
+}
