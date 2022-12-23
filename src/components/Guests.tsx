@@ -1,5 +1,5 @@
 import React from 'react';
-import peopleData from './people.json'
+import peopleData from '../people.json'
 
 function Guests() {
 
