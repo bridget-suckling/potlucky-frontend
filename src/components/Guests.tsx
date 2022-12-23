@@ -10,7 +10,7 @@ function Guests() {
        <h2>Guest list</h2>
       <ul>
         {guests.map(({id, name, diet}) => (
-        <li key={id}>{name}, {diet}</li>
+        <li key={id}>{name} is {diet}</li>
       ))}   
       </ul>
       <button>Add another guest</button>
